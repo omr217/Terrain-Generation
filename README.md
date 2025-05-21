@@ -1,26 +1,41 @@
-# Real-Time Procedural 3D Terrain in OpenGL with Python
+# 🌄 Real-Time 3D Procedural Terrain in Python
 
-This project visualizes an animated **procedural terrain** using `Perlin noise` in 3D, rendered in **wireframe mode** with `PyOpenGL` and `pygame`. It simulates a dynamic flying effect over a mountainous landscape.
-
----
-
-##  Features
-
--  Real-time terrain generation using 2D Perlin noise (`noise.pnoise2`)
--  Interactive window using `pygame` and `PyOpenGL`
--  Wireframe rendering via OpenGL for a clean geometric look
--  Smooth animation to simulate a “flyover” effect
--  Adjustable parameters for resolution, terrain size, and noise granularity
+This project renders a real-time **procedural 3D terrain** using **Perlin noise** and displays it in a **wireframe mode** with `PyOpenGL` and `pygame`. The scene simulates a smooth "flyover" effect through dynamically generated terrain.
 
 ---
 
-## Requirements
+## 🎯 Features
+
+- 🌀 Real-time animated terrain with Perlin noise
+- 🔷 Clean wireframe rendering using OpenGL
+- 🚀 Flyover animation driven by vertical noise offset
+- 🎮 Interactive window with `pygame`
+- ⚙️ Easily adjustable grid resolution and noise parameters
+
+---
+
+## 📦 Requirements
 
 - Python 3.8+
 - OpenGL-compatible GPU
-- Required Python packages:
 
-### Install dependencies:
+### 📥 Install Dependencies
+
+Install required packages with:
 
 ```bash
 pip install pygame PyOpenGL noise numpy
+
+
+🙏 Acknowledgements
+This project was inspired by open tools and learning resources:
+•	PyOpenGL – Python bindings for OpenGL
+•	pygame – For window management and event loop
+•	Perlin Noise Python package by Casey Duncan – Used to generate smooth terrain heights
+•	Daniel Shiffman / The Coding Train – Inspiration for procedural terrain generation
+Thanks to the open-source community and educators!
+
+
+📄 License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
+
