@@ -29,10 +29,10 @@ pip install pygame PyOpenGL noise numpy
 
 🙏 Acknowledgements
 This project was inspired by open tools and learning resources:
-•	PyOpenGL – Python bindings for OpenGL
-•	pygame – For window management and event loop
-•	Perlin Noise Python package by Casey Duncan – Used to generate smooth terrain heights
-•	Daniel Shiffman / The Coding Train – Inspiration for procedural terrain generation
+PyOpenGL – Python bindings for OpenGL
+pygame – For window management and event loop
+Perlin Noise Python package by Casey Duncan – Used to generate smooth terrain heights
+Daniel Shiffman / The Coding Train – Inspiration for procedural terrain generation
 Thanks to the open-source community and educators!
 
 
